@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "auth-dash-app-template"
+version = "0.1.0"
+description = ""
+authors = ["Equinor"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+numpy = "^1.20.1"
+pandas = "^1.2.3"
+plotly = "^4.14.3"
+Flask = "^1.1.2"
+gunicorn = "^20.0.4"
+msal = "^1.10.0"
+Bootstrap-Flask = "^1.5.1"
+dash-bootstrap-components = "^0.11.3"
+Flask-Login = "^0.5.0"
+azure-identity = "^1.5.0"
+azure-keyvault-secrets = "^4.2.0"
+Flask-Session = "^0.3.2"
+azure-storage-blob = "^12.8.1"
+pyarrow = "^4.0.0"
+nbformat = "^5.1.3"
+
+[tool.poetry.dev-dependencies]
+pytest = "^6.2.2"
+pylint = "^2.5.3"
+isort = "^5.4.2"
+mypy = "^0.782"
+flake8 = "^3.8.3"
+pre-commit = "^2.7.1"
+black = "^20.8b1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

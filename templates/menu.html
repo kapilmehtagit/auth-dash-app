@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <h2>Hello {{ name }}</h2>
+
+    {% for dash_app in dash_apps %}
+    <li><a href='{{ dash_app.url_base }}'>{{ dash_app.options["name"] }}</a></li>
+    {% endfor %}
+
+
+    <hr>
+    <footer style="text-align: right">Equinor</footer>
+</body>
+</html>
